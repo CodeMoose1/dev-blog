@@ -1,16 +1,37 @@
 ---
-title: "Seg start"
-date: "2026-04-14"
-effort: "låg"
-meme: "https://i.programmerhumor.io/2023/03/programmerhumor-io-programming-memes-b592bb1eb466dde.png"
+title: "En god start"
+date: "2026-04-24"
+effort: "Hög"
+meme: "https://i.programmerhumor.io/2025/06/12092820f6f9cd0f9d5b75466670c6459db0695eb7ac86df84f96d7ecf9eabae.png"
 ---
 
-# Trögt på hjärnkontoret
 
-text om prokrastinering och de små framsteg sedan sist.
 
-<ol style="list-style-type:numeric; list-style-position:inside;">
-<li> Delmoment 3</li>
-<li> Delmoment 5 - Tog inspiration från ___ </li>
-<li> Moment 3 - omprioriterat - detta behövs för funktionalitet </li>
-</ol>
+# Allt faller på plats sakta men säkert
+<br>
+
+## Utseende 
+Att fixa den grundläggande layouten var enkelt med gridbox
+
+Att ordna de induviduella sektionerna har varit tidskrävande, 
+och det har visat sig att vissa är viktigare att göra fungerande än andra.
+Till exempel behöver jag inte kunna lägga till egna assets nu med en gång,
+det räcker med placeholders. Events, properties och spelvy är däremot nödvändigt
+för att utvecklingen ska kunna gå framåt. Tyvärr har kodens struktur redan
+börjat se ut som kaos, så det kan vara bra att ta itu med.
+
+Jag har lagt en del fokus på att få saker att se ut som jag vill, men det är tidskrävande.
+<br>
+
+## Spelfunktioner
+Strukturen för att event ska triggras och orsaka förändringar i sprites properties har implementerats, men just nu fungerar endast "scene load"-eventet.
+
+Sprites visas i spelfönstret, men jag vill gärna lägga till funktion för att kunna dra sig runt i spelvyn så att man inte är fast vid (0, 0).
+<br>
+
+## Spara och dela spel
+Jag har gjort så att prjektet är ett enda stort objekt, så det kommer bli lätt att spara det med JSON. Inte implementerat än däremot.
+<br>
+
+## Annat
+Jag hade en bug som jag var fast med i någon timme. Jag sökte hjälp av AI, och det visade sig vara ett stavfel (Object.enties istället för Object.entries) som gjorde att det jag ville skulle visas inte visades.
