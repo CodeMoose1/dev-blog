@@ -21,7 +21,7 @@
 	</Carousel.Control>
 	<Carousel.ItemGroup>
 		{#each data.posts as slide ,i}
-    <a href={resolve("/devblog/"+slide.name)}>
+    <a href={resolve(`/devblog/${+slide.name}`)}>
 			<Carousel.Item index={i} class="card bg-surface-100-900 h-50 p-4 flex justify-center items-center">
 				{slide.title}
 			</Carousel.Item>
