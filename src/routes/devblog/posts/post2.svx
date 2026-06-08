@@ -1,8 +1,8 @@
 ---
 title: "Framstegen blir färre"
-date: "2026-04-24"
+date: "2026-05-22"
 effort: "medel"
-meme: "https://i.imgur.com/5Nz7PDn.jpeg"
+meme: "https://media.makeameme.org/created/progress-5b8627.jpg"
 ---
 
 Jag har laggt till en del nya events som exempelvis tangenttryck, klickning av sprites och intervall (triggras med jämna mellanrum). Detta innebär att det nu finns möjlighet att göra mycket simpla "spel", men man kan ännu inte lägga in assets eller uppdatera variabler, och kollision är inte klart ännu.
